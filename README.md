@@ -1,4 +1,4 @@
-# Image Generator App using stable diffusion(Stable Bud)
+# Image Generator App using STABLE DIFFUSION(Stable Bud)
 Stable Bud is a simple GUI application that uses the Hugging Face model, CompVis/stable-diffusion-v1-4, to generate images based on a given prompt. The app is built using tkinter and customtkinter for a sleeker appearance.Stable Diffusion is a generative modeling technique that is based on the concept of diffusing noise through a series of steps to gradually create an image. It is a part of the family of generative models used for image synthesis, similar to other techniques like Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs).
 ## Installation & Setup
 ### Prerequisites

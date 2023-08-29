@@ -22,7 +22,7 @@ lmain = ctk.CTkLabel(app, height=512, width=512)
 lmain.place(x=10, y=110)
 
 modelid = "CompVis/stable-diffusion-v1-4"
-device = "cpu"
+device = "cuda"
 pipe = StableDiffusionPipeline.from_pretrained(
     modelid, revision="fp16", torch_dtype=torch.bfloat16, use_auth_token=auth_token
 )
